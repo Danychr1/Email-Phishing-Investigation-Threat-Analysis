@@ -21,8 +21,6 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
 * Avoided interacting with links or attachments
 
-📁 [1_raw_email/](https://github.com/Danychr1/Email-Phishing-Investigation-Threat-Analysis/tree/main/1_raw_email)
-
 ### Step 2: Visual Email Inspection
 
 * Reviewed the email body for phishing indicators such as urgency, impersonation, and suspicious formatting
@@ -41,7 +39,6 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
 * Identified sending IP addresses and mail server infrastructure
 
-📁 2_header_analysis/
 
 ### Step 4: IP & Domain Reputation Validation
 
@@ -49,7 +46,7 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
 * Identified suspicious or previously reported infrastructure
 
-📁 2_header_analysis/
+📁 [2_header_analysis/](https://github.com/Danychr1/Email-Phishing-Investigation-Threat-Analysis/tree/main/2_header_analysis)
 
 ### Step 5: Decoding Encoded Email Content
 
