@@ -2,7 +2,6 @@
 
 A real-world phishing email investigation demonstrating SOC Tier 1 workflows, indicator validation, and structured incident documentation using industry-standard open-source tools.
 
-**Note** I am going to use a Windows (Virtual Machine) to perform  my analysis using Notepad++; however, you can use whatever text editor you prefer.  
 
 ## 🧠 Lab Overview
 
@@ -11,6 +10,8 @@ This project documents the analysis of a real phishing email crafted to imperson
 The investigation follows standard SOC procedures for identifying, validating, and documenting email-based threats, closely reflecting how phishing incidents are handled in operational security environments.
 
 ## 🛡️ Investigation Workflow (Step-by-Step SOC Process)
+
+**Note** I am going to use a Windows (Virtual Machine) to perform  my analysis using Notepad++; however, you can use whatever text editor you prefer.  
 
 ### Step 1: Email Collection & Preservation
 
