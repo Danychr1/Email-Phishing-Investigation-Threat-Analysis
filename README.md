@@ -21,7 +21,7 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
 * Avoided interacting with links or attachments
 
-📁 1_raw_email/
+📁 [1_raw_email/](https://github.com/Danychr1/Email-Phishing-Investigation-Threat-Analysis/tree/main/1_raw_email)
 
 ### Step 2: Visual Email Inspection
 
