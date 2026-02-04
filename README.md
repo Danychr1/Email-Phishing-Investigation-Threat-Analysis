@@ -32,7 +32,7 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
 - [CyberChef](https://gchq.github.io/CyberChef/) – Decoding and analyzing encoded email content
 
-- [malware-traffic-analysis](https://www.malware-traffic-analysis.net/) – Source of real phishing email samples
+- [Malware-traffic-analysis](https://www.malware-traffic-analysis.net/) – Source of real phishing email samples
 
 - **GitHub**  – Investigation documentation and case management
 
