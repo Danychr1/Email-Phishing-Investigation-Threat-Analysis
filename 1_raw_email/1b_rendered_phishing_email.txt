@@ -1,0 +1,9 @@
+From a trusted sender.
+Dear Brad
+Access to your mailbox is about to expire.
+We recommend that you Re-validate your account to avoid the suspension.
+[Re-Validate] (blue button)
+Update your email by accessing your account within 24hrs.
+Regards,
+noreplys@serversettings.com
+This email is meant for: brad@malware-traffic-analysis.net
