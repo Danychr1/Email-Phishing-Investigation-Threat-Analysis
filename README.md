@@ -9,6 +9,108 @@ This project documents the analysis of a real phishing email crafted to imperson
 
 The investigation follows standard SOC procedures for identifying, validating, and documenting email-based threats, closely reflecting how phishing incidents are handled in operational security environments.
 
+## 🛡️ Investigation Workflow (Step-by-Step SOC Process)
+### Step 1: Email Collection & Preservation
+
+* Collected the suspicious email as a .eml file to preserve evidence
+
+* Captured screenshots of the sender, subject, and rendered email body
+
+* Avoided interacting with links or attachments
+
+📁 1_raw_email/
+
+### Step 2: Visual Email Inspection
+
+* Reviewed the email body for phishing indicators such as urgency, impersonation, and suspicious formatting
+
+* Identified mismatched sender information and deceptive messaging
+
+📁 1_raw_email/
+
+### Step 3: Email Header Analysis
+
+* Extracted full email headers and analyzed them using MXToolbox
+
+* Reviewed From, Return-Path, and Received fields
+
+* Evaluated SPF, DKIM, and DMARC authentication results
+
+* Identified sending IP addresses and mail server infrastructure
+
+📁 2_header_analysis/
+
+### Step 4: IP & Domain Reputation Validation
+
+* Checked sending IPs and domains against reputation and blacklist databases
+
+* Identified suspicious or previously reported infrastructure
+
+📁 2_header_analysis/
+
+### Step 5: Decoding Encoded Email Content
+
+* Identified quoted-printable encoded content within the email
+
+* Used CyberChef to decode and inspect hidden HTML and URLs
+
+* Extracted obfuscated phishing links
+
+📁 3_link_analysis/
+
+### Step 6: Safe Phishing Link Analysis
+
+* Submitted suspicious URLs to URLScan.io for behavioral analysis
+
+* Reviewed redirect chains, page behavior, and visual evidence
+
+* Confirmed credential harvesting behavior
+
+📁 3_link_analysis/
+
+### Step 7: IOC Extraction
+
+* Extracted actionable indicators, including:
+
+    - Malicious IP addresses
+
+    - Domains and URLs
+
+    - Sender email addresses
+
+* Documented IOCs in a structured format
+
+📁 4_findings/
+
+### Step 8: Incident Classification
+
+* Classified the incident as Confirmed Phishing
+
+* Identified attack vector as Phishing – Link
+
+* Mapped activity to MITRE ATT&CK:
+
+    - [TA0001](https://attack.mitre.org/tactics/TA0001/) – Initial Access
+
+    - [T1566.002](https://attack.mitre.org/techniques/T1566/002/) – Phishing: Link
+
+📁 4_findings/
+
+### Step 9: Reporting & Recommendations
+
+* Documented findings in a concise incident summary
+
+* Provided remediation recommendations, including:
+
+  - Blocking malicious domains and IPs
+
+  - Updating email security rules
+
+  - User awareness guidance
+
+📁 4_findings/
+
+
 ## 🧰 Skills Demonstrated
 
 - Email header parsing and sender authentication analysis
@@ -54,8 +156,3 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
 This lab demonstrates how a SOC analyst conducts structured email triage, validates malicious indicators, and documents findings for escalation or response. The project highlights practical experience with phishing detection, threat intelligence validation, and clear security reporting aligned with Tier 1 SOC responsibilities.
 
-## 🧩 MITRE ATT&CK Mapping
-
-[TA0001](https://attack.mitre.org/tactics/TA0001/) – Initial Access
-
-[T1566.002](https://attack.mitre.org/techniques/T1566/002/) – Phishing: Link
