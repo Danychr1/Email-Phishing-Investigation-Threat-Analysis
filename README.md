@@ -10,6 +10,7 @@ This project documents the analysis of a real phishing email crafted to imperson
 The investigation follows standard SOC procedures for identifying, validating, and documenting email-based threats, closely reflecting how phishing incidents are handled in operational security environments.
 
 ## 🛡️ Investigation Workflow (Step-by-Step SOC Process)
+
 ### Step 1: Email Collection & Preservation
 
 * Collected the suspicious email as a .eml file to preserve evidence
