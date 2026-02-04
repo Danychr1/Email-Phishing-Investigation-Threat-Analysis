@@ -56,6 +56,6 @@ This lab demonstrates how a SOC analyst conducts structured email triage, valida
 
 ## 🧩 MITRE ATT&CK Mapping
 
-TA0001 – Initial Access
+[TA0001](https://attack.mitre.org/tactics/TA0001/) – Initial Access
 
-T1566.002 – Phishing: Link
+[T1566.002](https://attack.mitre.org/techniques/T1566/002/) – Phishing: Link
