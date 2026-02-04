@@ -134,7 +134,7 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
 - [MXToolbox](https://mxtoolbox.com/) – Email header analysis, SPF/DKIM checks, and blacklist validation
 
-- [URLScan.io](https://urlscan.io/) – Behavioral analysis and reputation assessment of suspicious URLs
+- [URLScan.io](https://urlscan.io/) or [AbuseIPDB](https://www.abuseipdb.com/) – Behavioral analysis and reputation assessment of suspicious URLs
 
 - [CyberChef](https://gchq.github.io/CyberChef/) – Decoding and analyzing encoded email content
 
