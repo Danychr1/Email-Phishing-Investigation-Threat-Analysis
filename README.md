@@ -145,7 +145,7 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
 ## 📁 Repository Structure
 
-1- raw_email/ – Original .eml file and rendered email screenshots
+1- [**raw_email/**](https://github.com/Danychr1/Email-Phishing-Investigation-Threat-Analysis/tree/main/1_raw_email) – Original .eml file and rendered email screenshots
 
 2- header_analysis/ – Header inspection, IP reputation checks, and blacklist results
 
