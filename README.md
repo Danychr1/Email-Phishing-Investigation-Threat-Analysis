@@ -55,8 +55,7 @@ The investigation follows standard SOC procedures for identifying, validating, a
 * Used CyberChef to decode and inspect hidden HTML and URLs
 
 * Extracted obfuscated phishing links
-
-📁 3_link_analysis/
+  
 
 ### Step 6: Safe Phishing Link Analysis
 
@@ -66,7 +65,7 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
 * Confirmed credential harvesting behavior
 
-📁 3_link_analysis/
+📁 [3_link_analysis/](https://github.com/Danychr1/Email-Phishing-Investigation-Threat-Analysis/tree/main/3_link_analysis)
 
 ### Step 7: IOC Extraction
 
