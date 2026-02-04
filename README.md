@@ -2,7 +2,8 @@
 
 A real-world phishing email investigation demonstrating SOC Tier 1 workflows, indicator validation, and structured incident documentation using industry-standard open-source tools.
 
-<img width="501" height="344" alt="Screenshot 2026-02-04 at 1 58 40 PM" src="https://github.com/user-attachments/assets/1afb42fd-2cc7-4432-a26c-e4e18ff11aa5" />
+<img width="1452" height="980" alt="Screenshot 2026-02-04 at 2 02 07 PM" src="https://github.com/user-attachments/assets/f72a1a73-e311-4aea-8c69-2fa84f4eb8f3" />
+
 
 ## 🧠 Lab Overview
 
