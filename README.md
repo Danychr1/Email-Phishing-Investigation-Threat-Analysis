@@ -28,7 +28,7 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
 - MXToolbox – Email header analysis, SPF/DKIM checks, and blacklist validation
 
-- URLScan.io – Behavioral analysis and reputation assessment of suspicious URLs
+- URLScan.io – Behavioral analysis and reputation assessment of suspicious URLs
 
 - CyberChef – Decoding and analyzing encoded email content
 
