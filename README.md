@@ -36,19 +36,18 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
 - GitHub – Investigation documentation and case management
 
-GitHub – Investigation documentation and case management
 
 ## 📁 Repository Structure
 
-1_ raw_email/ – Original .eml file and rendered email screenshots
+1- raw_email/ – Original .eml file and rendered email screenshots
 
-2_ header_analysis/ – Header inspection, IP reputation checks, and blacklist results
+2- header_analysis/ – Header inspection, IP reputation checks, and blacklist results
 
-3_ link_analysis/ – Embedded link inspection and HTML analysis
+3- link_analysis/ – Embedded link inspection and HTML analysis
 
-4_ findings/ – Extracted IOCs and investigation summary
+4- findings/ – Extracted IOCs and investigation summary
 
-5_ extras/ – Supplemental notes and supporting evidence
+5- extras/ – Supplemental notes and supporting evidence
 
 ## 🔎 SOC Relevance
 
