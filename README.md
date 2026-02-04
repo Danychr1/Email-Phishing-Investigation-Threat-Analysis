@@ -26,15 +26,15 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
 ## 🛠️ Tools Used
 
-- MXToolbox – Email header analysis, SPF/DKIM checks, and blacklist validation
+- [MXToolbox](https://mxtoolbox.com/) – Email header analysis, SPF/DKIM checks, and blacklist validation
 
-- URLScan.io – Behavioral analysis and reputation assessment of suspicious URLs
+- [URLScan.io](https://urlscan.io/) – Behavioral analysis and reputation assessment of suspicious URLs
 
-- CyberChef – Decoding and analyzing encoded email content
+- [CyberChef](https://gchq.github.io/CyberChef/) – Decoding and analyzing encoded email content
 
-- malware-traffic-analysis.net – Source of real phishing email samples
+- [malware-traffic-analysis](https://www.malware-traffic-analysis.net/) – Source of real phishing email samples
 
-- GitHub – Investigation documentation and case management
+- **GitHub**  – Investigation documentation and case management
 
 
 ## 📁 Repository Structure
