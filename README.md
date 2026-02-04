@@ -1,6 +1,6 @@
 # Email-Phishing-Investigation-Threat-Analysis
 
-    A real-world phishing email investigation demonstrating SOC Tier 1 workflows, indicator validation, and structured incident documentation using industry-standard open-source tools.
+A real-world phishing email investigation demonstrating SOC Tier 1 workflows, indicator validation, and structured incident documentation using industry-standard open-source tools.
 
 
 ## 🧠 Lab Overview
