@@ -1,0 +1,7 @@
+This phishing email claimed to be from an email administrator, warning the user of three failed email deliveries. It urged the recipient to click a button to retrieve their messages.
+
+The sender used a spoofed domain (domain.com) and sent the message from IP address 38.68.46.250, which is listed on at least one blacklist. The suspicious link led to knu.edu.af, a foreign domain using Cloudflare that likely hosted a credential-harvesting page. The page is now inactive.
+
+Authentication checks failed across the board — SPF, DKIM, and DMARC — which indicates the email was not properly authorized and was likely spoofed.
+
+Based on the deceptive language, failed security checks, and use of a suspicious redirect, this email is a clear example of a credential phishing attack.
