@@ -79,7 +79,7 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
 * Documented IOCs in a structured format
 
-📁 4_findings/
+
 
 ### Step 8: Incident Classification
 
@@ -93,7 +93,6 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
     - [T1566.002](https://attack.mitre.org/techniques/T1566/002/) – Phishing: Link
 
-📁 4_findings/
 
 ### Step 9: Reporting & Recommendations
 
@@ -107,7 +106,7 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
   - User awareness guidance
 
-📁 4_findings/
+📁 [4_findings/](https://github.com/Danychr1/Email-Phishing-Investigation-Threat-Analysis/tree/main/4_findings)
 
 
 ## 🧰 Skills Demonstrated
@@ -143,11 +142,11 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
 1- [**raw_email/**](https://github.com/Danychr1/Email-Phishing-Investigation-Threat-Analysis/tree/main/1_raw_email) – Original .eml file and rendered email screenshots
 
-2- header_analysis/ – Header inspection, IP reputation checks, and blacklist results
+2- [**header_analysis/**](https://github.com/Danychr1/Email-Phishing-Investigation-Threat-Analysis/tree/main/2_header_analysis) – Header inspection, IP reputation checks, and blacklist results
 
-3- link_analysis/ – Embedded link inspection and HTML analysis
+3- [**link_analysis/**](https://github.com/Danychr1/Email-Phishing-Investigation-Threat-Analysis/tree/main/3_link_analysis) – Embedded link inspection and HTML analysis
 
-4- findings/ – Extracted IOCs and investigation summary
+4- [**findings/**](https://github.com/Danychr1/Email-Phishing-Investigation-Threat-Analysis/tree/main/4_findings) – Extracted IOCs and investigation summary
 
 5- extras/ – Supplemental notes and supporting evidence
 
