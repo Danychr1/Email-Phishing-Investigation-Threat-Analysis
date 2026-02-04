@@ -29,7 +29,7 @@ The investigation follows standard SOC procedures for identifying, validating, a
 
 * Identified mismatched sender information and deceptive messaging
 
-📁 1_raw_email/
+📁 [1_raw_email/](https://github.com/Danychr1/Email-Phishing-Investigation-Threat-Analysis/tree/main/1_raw_email)
 
 ### Step 3: Email Header Analysis
 
