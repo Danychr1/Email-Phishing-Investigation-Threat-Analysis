@@ -157,4 +157,3 @@ The investigation follows standard SOC procedures for identifying, validating, a
 ## 🔎 SOC Relevance
 
 This lab demonstrates how a SOC analyst conducts structured email triage, validates malicious indicators, and documents findings for escalation or response. The project highlights practical experience with phishing detection, threat intelligence validation, and clear security reporting aligned with Tier 1 SOC responsibilities.
-
